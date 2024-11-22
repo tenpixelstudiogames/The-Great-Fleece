@@ -44,7 +44,6 @@ public class Player : MonoBehaviour
         float distance = Vector3.Distance(transform.position, destination);
         if (distance < 1.0f)
         {
-            Debug.Log("Idling is going to be true");
             playerAniamtor.SetBool("Idle", true);
         }
     }
